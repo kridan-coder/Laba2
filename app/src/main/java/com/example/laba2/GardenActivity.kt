@@ -1,11 +1,13 @@
 package com.example.laba2
 
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import com.example.laba2.Giacint.GiacintActivity
 import com.example.laba2.mainMenuGuts.FakeFragment
 import com.example.laba2.mainMenuGuts.GeolocationFragment
 import com.example.laba2.mainMenuGuts.SettingsFragment
@@ -50,5 +52,12 @@ class GardenActivity : AppCompatActivity() {
     }
     fun endDialog2(view: View){
         dialog2.visibility = View.GONE
+    }
+    fun goBack(view:View){
+        supportFragmentManager.beginTransaction().replace(R.id.fragment_container, GeolocationFragment()!!).commit()
+    }
+    fun moveToGiacintAct(view: View){
+        val intent = Intent(this, GiacintActivity::class.java)
+        startActivity(intent)
     }
 }

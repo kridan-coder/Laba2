@@ -12,4 +12,10 @@
         <item name="android:windowBackground">@drawable/launch_screen</item>
 
     </style>
+
+    <style name="Strip" >
+        <item name="android:background">@drawable/shape_settings</item>
+        <item name="android:layout_width">600dp</item>
+        <item name="android:layout_height">2dp</item>
+    </style>
 </resources>

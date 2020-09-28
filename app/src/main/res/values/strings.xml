@@ -23,5 +23,20 @@
     <string name="text_label_3">кружочек</string>
     <string name="text_label_4">звёздочка</string>
     <string name="text_label_5">информация</string>
+    <string name="GIACINT">ГИАЦИНТ</string>
+    <string name="hyacintus_lat">лат. Hyacintus</string>
+    <string name="hiacintus_txt_1st_part">Гиаци́нт (лат. Hyacínthus) — род растений семейства Спаржевые (Asparagaceae). Ранее выделялся в собственное семейство Гиацинтовые (Hyacinthaceae) или включался в семейство Лилейные (Liliaceae).</string>
+    <string name="hiacintus_txt_2st_part">Названия цветка происходит от древнегреческого мифа о спартанском принце Гиацинте, возлюбленном Аполлона, которого тот случайно убил во время игры в метание диска и из крови которого по легенде и появился этот цветок.</string>
+    <string name="list_of_plantings">Справочник посадок</string>
+    <string name="plant_1">Ель</string>
+    <string name="plant_2">Гиацинт</string>
+    <string name="hyacintus_descr_lat">Hyacintus</string>
+    <string name="plant_2_descr">Гортензия</string>
+    <string name="plant_2_descr_lat">Hydrangea</string>
+    <string name="plant_3_descr_lat">Picea abies</string>
+    <string name="plant_4_descr">Василек</string>
+    <string name="plant_4_descr_lat">Centaurea cyanus</string>
+    <string name="plant_5">Ирис</string>
+    <string name="plant_5_descr">Iris</string>
 
 </resources>
