@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/page_1"
+        android:icon="@drawable/geolocation"
+        android:title="@string/text_label_1"
+        />
+    <item
+        android:id="@+id/page_2"
+
+        android:icon="@drawable/stripes_4"
+        android:title="@string/text_label_2"/>
+    <item
+        android:id="@+id/page_3"
+
+        android:icon="@drawable/circle"
+        android:title="@string/text_label_3" />
+    <item
+        android:id="@+id/page_4"
+
+        android:icon="@drawable/star"
+        android:title="@string/text_label_4" />
+    <item
+        android:id="@+id/page_5"
+
+        android:icon="@drawable/i"
+        android:title="@string/text_label_5" />
+</menu>

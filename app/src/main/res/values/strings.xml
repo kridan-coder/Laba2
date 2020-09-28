@@ -1,3 +1,27 @@
 <resources>
     <string name="app_name">Laba2</string>
+    <string name="welcome_txt">Добро пожаловать в Сибирский Ботанический сад</string>
+    <string name="welcome_txt_additive">Томского Государственного университета</string>
+    <string name="enter">войти</string>
+    <string name="registration">регистрация</string>
+    <string name="done">готово</string>
+    <string name="login_ask">Пожалуйста, введите свой логин</string>
+    <string name="registration_ask">Пожалуйста, введите свои данные</string>
+    <string name="no_account">нет аккаунта</string>
+    <string name="forgot_password_question">забыли пароль?</string>
+    <string name="already_have_an_account">уже есть аккаунт</string>
+    <string name="OR">ИЛИ</string>
+    <string name="accept_terms">я даю согласие на обработку моих персональных данных и соглашаюсь с <u>политикой конфиденциальности</u></string>
+    <string name="create_garden_name">Придумайте название вашего сада</string>
+    <string name="garden_name">имя</string>
+    <string name="edit_text_login_or_email">логин или e-mail</string>
+    <string name="edit_text_password">пароль</string>
+    <string name="name">имя</string>
+    <string name="repeat_password">повторите пароль</string>
+    <string name="text_label_1">геолокация</string>
+    <string name="text_label_2">меню</string>
+    <string name="text_label_3">кружочек</string>
+    <string name="text_label_4">звёздочка</string>
+    <string name="text_label_5">информация</string>
+
 </resources>
