@@ -2,6 +2,7 @@ package com.example.laba2
 
 
 import android.content.Intent
+import android.content.res.Configuration
 import android.os.Bundle
 import android.view.View
 import android.widget.ImageView
@@ -25,6 +26,12 @@ class GardenActivity : AppCompatActivity() {
             supportFragmentManager.beginTransaction().replace(R.id.fragment_container,
                 GeolocationFragment()
             ).commit()
+        }
+        if (resources.configuration.orientation == Configuration.ORIENTATION_PORTRAIT){
+            bottom_navigation.visibility = View.VISIBLE
+        }
+        if (resources.configuration.orientation == Configuration.ORIENTATION_LANDSCAPE){
+            bottom_navigation.visibility = View.GONE
         }
     }
     private val navListener: BottomNavigationView.OnNavigationItemSelectedListener =
@@ -60,4 +67,5 @@ class GardenActivity : AppCompatActivity() {
         val intent = Intent(this, GiacintActivity::class.java)
         startActivity(intent)
     }
+
 }

@@ -14,4 +14,5 @@ class GiacintActivity : AppCompatActivity() {
     fun goBack(view: View){
         onBackPressed()
     }
+
 }
